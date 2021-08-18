@@ -1,0 +1,107 @@
+.main > .comment{
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #eeeeee;
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+    cursor: pointer;
+}
+.main > .comment:hover{
+    background-color: #fafafa;
+}
+.main > .comment > img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 30px;
+    margin-left: 12px;
+    margin-right: 13px;
+}
+.main > .comment > .content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.main > .comment > .content > .user{
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Catamaran', sans-serif;
+    line-height: 1.1;
+    color: #333333;
+    margin-bottom: 5px;
+}
+.main > .comment > .content > .user > span{
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 0 3px;
+}
+.main > .comment > .content > p{
+    font-size: 16px;
+    margin: 0;
+    font-family: 'Catamaran', sans-serif;
+    line-height: 1;
+    margin-top: 5px;
+}
+
+.main > .comment > .content > .actions{
+    display: flex;
+    flex-direction: row;
+    margin-top: 8px;
+}
+.main > .comment > .content > .actions > .reply-thread{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    font-family: 'Catamaran', sans-serif;
+    padding: 0 10px;
+    padding-left: 7px;
+    border-radius: 5px;
+    font-weight: 500; 
+    cursor: pointer;
+    color: #595959;
+    align-content: center;
+}
+.main > .comment > .content > .actions > .reply-thread > .material-icons-outlined{
+    font-size: 16px;
+    align-self: center;
+    margin-right: 3px;
+}
+.main > .comment > .content > .actions > .reply-thread:hover{
+    background-color: #f1f1f1;
+}
+
+.main > .comment > .content > .actions > .action{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    font-family: 'Catamaran', sans-serif;
+    padding: 0 10px;
+    padding-left: 7px;
+    border-radius: 5px;
+    font-weight: 500; 
+    cursor: pointer;
+    color: #595959;
+    align-content: center;
+    margin-left: 15px;
+}
+.main > .comment > .content > .actions > .action > .material-icons-outlined{
+    font-size: 16px;
+    align-self: center;
+    margin-right: 5px;
+}
+.main > .comment > .content > .actions > .action:hover{
+    background-color: #f1f1f1;
+}
+.main > .comment > .content > .actions > .action.liked{
+    color: blue;
+}
+.main > .comment > .content > .actions > .action.disliked{
+    color: red;
+}

@@ -1,0 +1,115 @@
+.main > .community{
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #eeeeee;
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+    cursor: pointer;
+}
+.main > .community:hover{
+    background-color: #fafafa;
+}
+.main > .community > img{
+    width: 85px;
+    height: 85px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.main > .community > .content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.main > .community > .content > .name{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Catamaran', sans-serif;
+    line-height: 1.1;
+    margin-top: 5px;
+}
+.main > .community > .content > p{
+    font-size: 15px;
+    margin: 0;
+    font-family: 'Catamaran', sans-serif;
+    line-height: 1;
+    margin-top: 5px;
+    height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.main > .community > .content > .actions{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+.main > .community > .content > .actions > .create-thread{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    font-family: 'Catamaran', sans-serif;
+    padding: 0 10px;
+    padding-left: 7px;
+    border-radius: 5px;
+    font-weight: 500; 
+    cursor: pointer;
+    color: #595959;
+    align-content: center;
+}
+.main > .community > .content > .actions > .create-thread > .material-icons-outlined{
+    font-size: 16px;
+    align-self: center;
+}
+.main > .community > .content > .actions > .create-thread:hover{
+    background-color: #f1f1f1;
+}
+
+.main > .community > .content > .actions > .follow{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    font-family: 'Catamaran', sans-serif;
+    padding: 0 10px;
+    padding-left: 7px;
+    border-radius: 5px;
+    font-weight: 500; 
+    cursor: pointer;
+    color: #595959;
+    align-content: center;
+    margin-left: 15px;
+}
+.main > .community > .content > .actions > .follow > .material-icons-outlined{
+    font-size: 16px;
+    align-self: center;
+}
+.main > .community > .content > .actions > .follow:hover{
+    background-color: #f1f1f1;
+}
+
+.main > .community > .content > .actions > .new{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    font-family: 'Catamaran', sans-serif;
+    padding: 0 10px;
+    padding-left: 7px;
+    border-radius: 5px;
+    font-weight: 500; 
+    cursor: pointer;
+    color: #595959;
+    align-content: center;
+    background-color: #f1f1f1;
+    margin-left: 15px;
+}
+.main > .community > .content > .actions > .new > .material-icons-outlined{
+    font-size: 16px;
+    align-self: center;
+}
+.main > .community > .content > .actions > .new:hover{
+    background-color: red;
+    color: white;
+}

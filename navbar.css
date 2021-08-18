@@ -1,0 +1,38 @@
+.navbar > a {
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+    height: 90px;
+    text-decoration: none;
+    color: inherit;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    align-items: center;
+    vertical-align: middle;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    color: #595959;
+}
+.navbar > a.bottom{
+    margin-top: auto;
+}
+.navbar > a:hover{
+    background-color: #f9f9f9;
+}
+.navbar > a.selected{
+    color: blue;
+}
+.navbar > a.selected:hover{
+    background-color: #f2f9ff;
+}
+.navbar > a > .name{
+    font-size: 14px;
+    font-family: arial;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 5px;
+}

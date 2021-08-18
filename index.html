@@ -1,0 +1,239 @@
+<html>
+    <head>
+        <title>Chime in</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="navbar.css">
+        <link rel="stylesheet" href="community.css">
+        <link rel="stylesheet" href="thread.css">
+        <link rel="stylesheet" href="comment.css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="form.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet"> 
+
+    </head>
+    <body>
+        <div class="header">
+            <img src="logo.png">
+            <img src="https://eu.ui-avatars.com/api/?background=random&name=cosmin" class="user">
+        </div>
+        <div class="navbar">
+            <a href="/" class="selected">
+                <span class="material-icons-outlined">home</span>
+                <span class="name">Home</span>
+            </a>
+            <a href="/">
+                <span class="material-icons-outlined">explore</span>
+                <span class="name">Explore</span>
+            </a>
+            <a href="/">
+                <span class="material-icons-outlined">add</span>
+                <span class="name">Create community</span>
+            </a>
+            <a href="/">
+                <span class="material-icons-outlined">shuffle</span>
+                <span class="name">Random</span>
+            </a>
+            <a href="/" class="bottom">
+                <span class="material-icons-outlined">logout</span>
+                <span class="name">Logout</span>
+            </a>
+        
+        </div>
+        <div class="main">
+            <div class="community">
+                <img src="https://www.aoe.com/fileadmin/AOE.com/Images/main_navigation/insights/Fotolia_94900081_Chess_Pieces_930_590_70.jpg">
+                <div class="content">
+                    <span class="name">Chess community</span>
+                    <p>Community for the chess enthusiasts, a place to learn and discuss latest news. We have a tournament every week for all the play modes.</p>
+                    <div class="actions">
+                        <div class="create-thread">
+                            <span class="material-icons-outlined">add</span>
+                            <span class="name">Create thread</span>
+                        </div>
+                        <div class="follow">
+                            <span class="material-icons-outlined">person</span>
+                            <span class="name">364 Following</span>
+                        </div>
+                        <div class="new">
+                            <span class="material-icons-outlined">notifications</span>
+                            <span class="name">5 New threads</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="community">
+                <img src="https://centaur-wp.s3.eu-central-1.amazonaws.com/designweek/prod/content/uploads/2018/01/19151152/FORMULA-1%C2%AE-UNLEASHES-NEW-BRAND-IDENTITY-INSPIRED-BY-ITS-FANS-OPTION-2.jpg">
+                <div class="content">
+                    <span class="name">Formula 1</span>
+                    <p>Place to discuss races, teams, news and every thing formula 1 related.</p>
+                    <div class="actions">
+                        <a href="/" class="create-thread">
+                            <span class="material-icons-outlined">add</span>
+                            <span class="name">Create thread</span>
+                        </a>
+                        <a href="/" class="follow">
+                            <span class="material-icons-outlined">person</span>
+                            <span class="name">11.3k Following</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="community">
+                <img src="https://media.istockphoto.com/vectors/world-travel-russia-usa-japan-france-england-italy-vector-id582265994">
+                <div class="content">
+                    <span class="name">Travel</span>
+                    <p>Find about the best travel destinations across the globe. Find best deals, new turistic atractions and more. Discover oasis of peace and relaxation. Leave reviews of scams or bad services.</p>
+                    <div class="actions">
+                        <a href="/" class="create-thread">
+                            <span class="material-icons-outlined">add</span>
+                            <span class="name">Create thread</span>
+                        </a>
+                        <a href="/" class="follow">
+                            <span class="material-icons-outlined">person</span>
+                            <span class="name">35 Following</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <form action="/" method="post">
+                <h3>Create thread</h3>
+                <label>Title</label>
+                <input type="text">
+                <label>Content</label>
+                <textarea rows="2"></textarea>
+                <input type="submit" value="CREATE THREAD">
+            </form>
+            <div class="thread">
+                <img src="https://eu.ui-avatars.com/api/?background=random&name=c">
+                <div class="content">
+                    <a href="/" class="user">Posted by <span>Cosmin</span> • 3h ago</a>
+                    <a href="/" class="title">VW ID.3 Police Cars Getting Ready To Serve and Protect in Germany</a>
+                    <div class="actions">
+                        <a href="/" class="reply-thread">
+                            <span class="material-icons-outlined">reply</span>
+                            <span class="name">21 Replys</span>
+                        </a>
+                        <a href="/" class="action">
+                            <span class="material-icons-outlined">thumb_up</span>
+                            <span class="name"> 1.3k Like</span>
+                        </a>
+                        <a href="/" class="action">
+                            <span class="material-icons-outlined">thumb_down</span>
+                            <span class="name"> 216 Dislike</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="thread">
+                <img src="https://eu.ui-avatars.com/api/?background=random&name=VTC">
+                <div class="content">
+                    <a href="/" class="user">Posted by <span>VTC</span> • 5d ago</a>
+                    <a href="/" class="title">Alert: US opens formal investigation of Tesla autopilot citing collisions with parked emergency vehicles</a>
+                    <div class="actions">
+                        <a href="/" class="reply-thread">
+                            <span class="material-icons-outlined">reply</span>
+                            <span class="name">723 Replys</span>
+                        </a>
+                        <a href="/" class="action">
+                            <span class="material-icons-outlined">thumb_up</span>
+                            <span class="name"> 1.3k Like</span>
+                        </a>
+                        <a href="/" class="action disliked">
+                            <span class="material-icons-outlined">thumb_down</span>
+                            <span class="name"> 216 Dislike</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="thread">
+                <img src="https://eu.ui-avatars.com/api/?background=random&name=Tudor">
+                <div class="content">
+                    <a href="/" class="user">Posted by <span>Tudor</span> • 52m ago</a>
+                    <a href="/" class="title">Five children injured as Tesla crashes in school car park</a>
+                    <div class="actions">
+                        <a href="/" class="reply-thread">
+                            <span class="material-icons-outlined">reply</span>
+                            <span class="name">723 Replys</span>
+                        </a>
+                        <a href="/" class="action liked">
+                            <span class="material-icons-outlined">thumb_up</span>
+                            <span class="name"> 1.3k Like</span>
+                        </a>
+                        <a href="/" class="action">
+                            <span class="material-icons-outlined">thumb_down</span>
+                            <span class="name"> 216 Dislike</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="comment">
+                <img src="https://eu.ui-avatars.com/api/?background=random&name=VisanCosmin">
+                <div class="content">
+                    <a href="/" class="user">Posted by <span>VisanCosmin</span> • 1m ago</a>
+                    <p>This is a comment in a thread, i have to make grouping.</p>
+                    <div class="actions">
+                        <a href="/" class="reply-thread">
+                            <span class="material-icons-outlined">reply</span>
+                            <span class="name">7 Replys</span>
+                        </a>
+                        <a href="/" class="action">
+                            <span class="material-icons-outlined">thumb_up</span>
+                            <span class="name"> 51 Like</span>
+                        </a>
+                        <a href="/" class="action">
+                            <span class="material-icons-outlined">thumb_down</span>
+                            <span class="name"> 16 Dislike</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="comment">
+                <img src="https://eu.ui-avatars.com/api/?background=random&name=T&color=white">
+                <div class="content">
+                    <a href="/" class="user">Posted by <span>Tudor</span> • 33m ago</a>
+                    <p>What i have to make ? I have to style grouping for threads and comments. I have to make forms for login,register and more (make them modular not how you done till now), make reply sidebar tab.</p>
+                    <div class="actions">
+                        <a href="/" class="reply-thread">
+                            <span class="material-icons-outlined">reply</span>
+                            <span class="name">3 Replys</span>
+                        </a>
+                        <a href="/" class="action liked">
+                            <span class="material-icons-outlined">thumb_up</span>
+                            <span class="name"> 11 Like</span>
+                        </a>
+                        <a href="/" class="action">
+                            <span class="material-icons-outlined">thumb_down</span>
+                            <span class="name"> 1 Dislike</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <form action="/" method="post">
+                <h3>Create community</h3>
+                <label class="err">There it is a community with this name</label>
+                <label>Name</label>
+                <input type="text">
+                <label>Description</label>
+                <input type="text">
+                <label>Logo</label>
+                <input type="text">
+                <input type="submit" value="CREATE COMMUNITY">
+            </form>
+            
+        
+        </div>
+        <div class="sidebar"></div>
+    
+    
+    </body>
+</html>
