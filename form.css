@@ -27,6 +27,17 @@ form > input[type=text]{
     border: 1px solid #eeeeee;
     background-color: white;
 }
+form > input[type=password]{
+    font-family: 'Catamaran', sans-serif;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f4f4f4;
+    outline: none;
+    padding: 1px 7px;
+    border: 1px solid #eeeeee;
+    background-color: white;
+}
 form > textarea{
     font-family: 'Catamaran', sans-serif;
     border: 0;
