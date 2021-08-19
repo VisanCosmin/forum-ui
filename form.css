@@ -62,3 +62,14 @@ form > .err{
     margin-bottom: 5px;
     padding: 0 5px;
 }
+.main > .note{
+    font-size: 14px;
+    font-family: 'Catamaran', sans-serif;
+    color: #595959;
+    text-align: center;
+}
+.main > .note > a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: inherit;
+}
