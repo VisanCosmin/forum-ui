@@ -36,3 +36,45 @@
     line-height: 1;
     margin-top: 5px;
 }
+.navbar > form{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+.navbar > form.bottom{
+    margin-top: auto;
+}
+.navbar > form > button{
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+    height: 90px;
+    text-decoration: none;
+    color: inherit;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    align-items: center;
+    vertical-align: middle;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    color: #595959;
+    background-color: white;
+    border: 0;
+    padding: 0;
+    outline: 0;
+}
+.navbar > form > button:hover{
+    background-color: #f9f9f9;
+}
+.navbar > form > button > .name{
+    font-size: 14px;
+    font-family: arial;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 5px;
+}
